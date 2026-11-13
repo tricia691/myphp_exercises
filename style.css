@@ -1,0 +1,104 @@
+/* ---------- Page: center everything ---------- */
+body {
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* ---------- Main box (register, login, welcome) ---------- */
+.box {
+    background: #151515;
+    border: 2px solid hotpink;
+    border-radius: 10px;
+    padding: 30px;
+    width: 320px;
+    text-align: center;
+}
+
+h1 {
+    color: hotpink;
+}
+
+/* ---------- Form ---------- */
+label {
+    display: block;
+    text-align: left;
+    margin-top: 12px;
+    color: hotpink;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background: black;
+    color: white;
+    border: 1px solid hotpink;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* ---------- Register / Login button ---------- */
+button {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background: hotpink;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background: deeppink;
+    color: white;
+}
+
+/* ---------- Links and messages ---------- */
+a {
+    color: hotpink;
+}
+
+.message {
+    color: hotpink;
+    font-weight: bold;
+}
+
+/* ---------- Welcome page ---------- */
+.welcome-box {
+    width: 420px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.buttons .button {
+    display: inline-block;
+    padding: 8px 14px;
+    color: hotpink;
+    background: transparent;
+    border: 1px solid hotpink;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.buttons .button:hover {
+    background: hotpink;
+    color: black;
+}
